@@ -1,6 +1,6 @@
 # NHẬT KÝ PROMPT ENGINEERING (VIBE CODING LOG)
-- **Họ và tên:** [Trần Tấn Tài]
-- **MSSV:** [125000374]
+- **Họ và tên:** Trần Tấn Tài
+- **MSSV:** 125000374
 - **Tên đề tài Website:** Landing Page Quán Cà Phê Nghệ Thuật - Mộc Roastery & Coffee
 - **Công cụ AI đã sử dụng:** Gemini / ChatGPT / Cursor
 
