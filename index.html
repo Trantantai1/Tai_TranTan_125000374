@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mộc Roastery | Cà Phê Nguyên Bản & Không Gian Sáng Tạo</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Thư viện Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    
+    <!-- Thư viện AOS (Animate On Scroll) -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 1. HEADER & NAV -->
+    <header class="site-header">
+        <nav class="navbar container" aria-label="Điều hướng chính">
+            <a href="#" class="logo">Mộc<span>Roastery</span></a>
+            <ul class="nav-links">
+                <li><a href="#about">Câu chuyện</a></li>
+                <li><a href="#menu">Thực đơn</a></li>
+                <li><a href="#space">Không gian</a></li>
+                <li><a href="#booking" class="btn-nav">Đặt bàn ngay</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- 2. MAIN CONTENT -->
+    <main>
+        <!-- HERO SECTION (Áp dụng Animate.css) -->
+        <section class="hero">
+            <div class="hero-content container">
+                <span class="badge animate__animated animate__fadeInDown">100% Hạt Arabica Cầu Đất</span>
+                <h1 class="animate__animated animate__fadeInUp">Đánh Thức Giác Quan Trong Từng Giọt Đắng</h1>
+                <p class="animate__animated animate__fadeInUp animate__delay-1s">
+                    Trải nghiệm nghệ thuật rang xay thủ công kết hợp không gian yên tĩnh lý tưởng cho công việc và những cuộc trò chuyện sâu lắng.
+                </p>
+                <div class="hero-actions animate__animated animate__zoomIn animate__delay-1s">
+                    <a href="#menu" class="btn btn-primary">Khám Phá Menu</a>
+                    <a href="#about" class="btn btn-outline">Về Chúng Tôi</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 1: CÂU CHUYỆN (Áp dụng AOS) -->
+        <section id="about" class="about container">
+            <article class="about-grid">
+                <figure class="about-image" data-aos="fade-right" data-aos-duration="1000">
+                    <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=900&q=80" alt="Nghệ thuật pha chế cà phê thủ công tại Mộc Roastery">
+                </figure>
+                <div class="about-text" data-aos="fade-left" data-aos-duration="1000">
+                    <span class="section-subtitle">Hành trình từ nông trại</span>
+                    <h2>Rang Xay Tươi Mới Mỗi Ngày</h2>
+                    <p>Tại Mộc Roastery, chúng tôi tin rằng mỗi tách cà phê là một tác phẩm nghệ thuật. Hạt cà phê được thu hoạch chín đỏ 100% từ vùng cao nguyên Cầu Đất, sơ chế ướt và rang mộc ở mức Medium để giữ trọn hương hoa quả tự nhiên.</p>
+                    <ul class="feature-list">
+                        <li><strong>Không phụ gia:</strong> Giữ nguyên bản vị chua thanh và hậu ngọt sâu.</li>
+                        <li><strong>Pha chế đa dạng:</strong> Espresso, Pour Over V60, Cold Brew ủ lạnh 18 giờ.</li>
+                        <li><strong>Không gian xanh:</strong> Thiết kế mở ngập tràn ánh sáng tự nhiên và cây xanh.</li>
+                    </ul>
+                </div>
+            </article>
+        </section>
+
+        <!-- SECTION 2: THỰC ĐƠN NỔI BẬT (Áp dụng CSS Grid + AOS + Hover Cards) -->
+        <section id="menu" class="menu-section">
+            <div class="container">
+                <header class="section-header" data-aos="fade-up">
+                    <span class="section-subtitle">Signature Drinks</span>
+                    <h2>Thực Đơn Đặc Trưng</h2>
+                    <p>Những thức uống được yêu thích nhất do chính tay Head Barista của Mộc sáng tạo.</p>
+                </header>
+
+                <div class="menu-grid">
+                    <!-- Card 1 -->
+                    <article class="menu-card" tabindex="0" data-aos="fade-up" data-aos-delay="100">
+                        <figure class="card-img">
+                            <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=600&q=80" alt="Cold Brew Cam Sả">
+                            <span class="price-tag">55.000đ</span>
+                        </figure>
+                        <div class="card-body">
+                            <h3>Cold Brew Cam Sả</h3>
+                            <p>Cà phê ủ lạnh 18 tiếng kết hợp nước cam vàng tươi và hương sả thanh mát.</p>
+                            <button type="button" class="btn-card">Đặt món ngay</button>
+                        </div>
+                    </article>
+
+                    <!-- Card 2 -->
+                    <article class="menu-card" tabindex="0" data-aos="fade-up" data-aos-delay="200">
+                        <figure class="card-img">
+                            <img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?auto=format&fit=crop&w=600&q=80" alt="Caramel Macchiato Kem Muối">
+                            <span class="price-tag">62.000đ</span>
+                        </figure>
+                        <div class="card-body">
+                            <h3>Latte Kem Muối Biển</h3>
+                            <p>Sự hòa quyện giữa Espresso đậm đà, sữa tươi thanh trùng và lớp kem muối béo mặn.</p>
+                            <button type="button" class="btn-card">Đặt món ngay</button>
+                        </div>
+                    </article>
+
+                    <!-- Card 3 -->
+                    <article class="menu-card" tabindex="0" data-aos="fade-up" data-aos-delay="300">
+                        <figure class="card-img">
+                            <img src="https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=600&q=80" alt="Pour Over V60">
+                            <span class="price-tag">68.000đ</span>
+                        </figure>
+                        <div class="card-body">
+                            <h3>Pour Over Ethiopia</h3>
+                            <p>Pha thủ công bằng phễu V60, nổi bật nốt hương trà bá tước, cam bergamot và hoa nhài.</p>
+                            <button type="button" class="btn-card">Đặt món ngay</button>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 3: KHÔNG GIAN & TRẢI NGHIỆM -->
+        <section id="space" class="space-section container">
+            <header class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">Góc Nhỏ Bình Yên</span>
+                <h2>Không Gian Dành Cho Bạn</h2>
+            </header>
+            <div class="space-grid">
+                <article class="space-item" data-aos="zoom-in" data-aos-delay="100">
+                    <h3>Khu Co-working Yên Tĩnh</h3>
+                    <p>Trang bị ổ cắm điện tại mọi bàn, Wifi tốc độ cao và ghế ngồi công thái học êm ái.</p>
+                </article>
+                <article class="space-item" data-aos="zoom-in" data-aos-delay="200">
+                    <h3>Quầy Slow Bar</h3>
+                    <p>Trực tiếp quan sát và trò chuyện cùng Barista về kỹ thuật chiết xuất hạt cà phê.</p>
+                </article>
+                <article class="space-item" data-aos="zoom-in" data-aos-delay="300">
+                    <h3>Sân Vườn Thoáng Đãng</h3>
+                    <p>Rợp bóng cây xanh cùng tiếng nước chảy nhẹ nhàng, tách biệt khỏi khói bụi thành phố.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- SECTION 4: ĐẶT BÀN / CTA -->
+        <section id="booking" class="booking-section" data-aos="fade-up">
+            <div class="container booking-box">
+                <h2>Đặt Chỗ Trước Cho Buổi Hẹn Hôm Nay</h2>
+                <p>Nhận ngay ưu đãi giảm 15% tổng hóa đơn khi đặt bàn trực tuyến trước 2 giờ.</p>
+                <form class="booking-form" onsubmit="event.preventDefault(); alert('Cảm ơn bạn! Mộc Roastery đã ghi nhận thông tin đặt bàn.');">
+                    <input type="text" placeholder="Họ và tên của bạn" required aria-label="Họ và tên">
+                    <input type="tel" placeholder="Số điện thoại" required aria-label="Số điện thoại">
+                    <button type="submit" class="btn btn-primary">Xác Nhận Đặt Bàn</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- 3. FOOTER -->
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <section class="footer-brand">
+                <a href="#" class="logo">Mộc<span>Roastery</span></a>
+                <p>Nơi lưu giữ hương vị cà phê nguyên bản và kết nối những tâm hồn đồng điệu.</p>
+            </section>
+            <section class="footer-contact">
+                <h3>Thông Tin Liên Hệ</h3>
+                <p>Địa chỉ: 124 Nguyễn Huệ, Quận 1, TP. Hồ Chí Minh</p>
+                <p>Giờ mở cửa: 07:00 - 22:00 (Thứ 2 - Chủ Nhật)</p>
+                <p>Hotline: 0909 123 456</p>
+            </section>
+            <section class="footer-social">
+                <h3>Theo Dõi Chúng Tôi</h3>
+                <ul class="social-links">
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">TikTok</a></li>
+                </ul>
+            </section>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Mộc Roastery. Thiết kế bởi Sinh Viên - Học phần Thiết kế Web.</p>
+        </div>
+    </footer>
+
+    <!-- Khởi tạo thư viện AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true,
+            offset: 100,
+            duration: 800,
+            easing: 'ease-out-cubic'
+        });
+    </script>
+</body>
+</html>
